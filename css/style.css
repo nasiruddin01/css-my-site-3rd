@@ -28,6 +28,7 @@ h3 {
 .mountain {
   width: 50%;
   margin: 0 25%;
+  margin-top: -5rem;
 }
 
 .cloud {
@@ -35,19 +36,25 @@ h3 {
 }
 
 .first {
-  margin: 5% 15%;
+  margin: 1% 10%;
   position: absolute;
 }
 
 .second {
   margin-left: 40%;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .third {
-  margin-left:53%;
+  margin-left: 53%;
+  margin-top:-3rem;
 }
-
+.programmer-text{
+  margin-top: -4rem;
+  left: 45vw;
+  position: absolute;
+  z-index: 10;
+}
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
@@ -56,8 +63,7 @@ h3 {
 }
 
 .picture-img {
-  width: 150px;
-  height: 150px;
+  width: 25%;
   float: left;
   margin: 30px;
 }
@@ -65,9 +71,5 @@ h3 {
 .code-img {
   width: 25%;
   float: right;
-  margin:30px ;
-}
-
-.picture-img {
-  width: 25%;
+  margin: 30px;
 }
